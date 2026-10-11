@@ -20,7 +20,8 @@
 
 **Тема сайта:** Кенни — Император??? 
 **Технологии:** HTML5, CSS3 
-**Сайт:** [Открыть сайт](https://nikiii357549.github.io/web6405-bagrova_va/lab2/index.html)
+
+[Открыть сайт](https://nikiii357549.github.io/web6405-bagrova_va/lab2/index.html)
 
 **Структура проекта:**
 - `lab2/index.html` — главная 
