@@ -1,0 +1,168 @@
+body {
+    background-color: #0d0d0d;
+    background-image: url('../images/matrix.jpg');
+    background-repeat: repeat;
+    background-size: 400px auto;
+    background-attachment: fixed;
+    color: #d4ffd4;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(0, 26, 0, 0.9);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 3px solid #00ff41;
+}
+
+#main-title {
+    color: #00ff41;
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00ff41;
+}
+
+.subtitle {
+    color: #7fff7f;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: rgba(0, 17, 0, 0.9);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #00aa2a;
+}
+
+nav a {
+    color: #00ff41;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border: 1px solid #00ff41;
+    background-color: #002200;
+    color: #ffffff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: rgba(17, 17, 17, 0.85);
+    border-left: 5px solid #00ff41;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+}
+
+.card h2 {
+    color: #00ff41;
+    border-bottom: 1px dashed #00aa2a;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.highlight {
+    background-color: #003300;
+    color: #00ff41;
+    padding: 2px 6px;
+    font-weight: bold;
+}
+
+.main-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #00ff41;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+}
+
+.stamp-image {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(10, 10, 10, 0.9);
+    border: 2px solid #00ff41;
+}
+
+th {
+    background-color: #003300;
+    color: #00ff41;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #00aa2a;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #00aa2a;
+    text-align: left;
+    color: #d4ffd4;
+}
+
+.center {
+    text-align: center;
+    color: #00ff41;
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+    color: #00ff41;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    color: #00ff41;
+    text-decoration: underline;
+}
+
+ul li a:hover {
+    color: #ffffff;
+    background-color: #003300;
+}
+
+#footer {
+    background-color: rgba(0, 26, 0, 0.9);
+    color: #7fff7f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid #00ff41;
+    font-size: 14px;
+}
