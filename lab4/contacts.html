@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты | Кенни — Император</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header__title">КОНТАКТЫ</h1>
+
+    <div class="header__marquee">
+        <div class="header__marquee-track">
+            <span class="header__subtitle">Свяжитесь с нами, если вы тоже умирали</span>
+            <span class="header__subtitle">Свяжитесь с нами, если вы тоже умирали</span>
+            <span class="header__subtitle">Свяжитесь с нами, если вы тоже умирали</span>
+            <span class="header__subtitle">Свяжитесь с нами, если вы тоже умирали</span>
+            <span class="header__subtitle">Свяжитесь с нами, если вы тоже умирали</span>
+            <span class="header__subtitle">Свяжитесь с нами, если вы тоже умирали</span>
+        </div>
+    </div>
+</header>
+
+<nav class="nav">
+    <a class="nav__link" href="index.html">Главная</a>
+    <a class="nav__link" href="truth.html">Истинная сущность</a>
+    <a class="nav__link" href="contacts.html">Контакты</a>
+</nav>
+
+<main class="main--flex">
+
+    <section class="card">
+        <h2 class="card__title">Наши координаты</h2>
+        <img src="images/eye.jpg" alt="Глаз иллюминатов" class="card__image">
+        <ul>
+            <li><strong>Адрес базы:</strong> г. Самара, Молодогвардейская улица, 96</li>
+            <li><strong>Телефон:</strong> +7 (917) 812-04-88</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2 class="card__title">Форма связи</h2>
+        <form class="form" id="contactForm" novalidate>
+
+            <div class="form__field">
+                <label class="form__label" for="name">Имя</label>
+                <input class="form__input" type="text" id="name" name="name" placeholder="Введите имя" required>
+            </div>
+
+            <div class="form__field">
+                <label class="form__label" for="email">Email</label>
+                <input class="form__input" type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form__field">
+                <label class="form__label" for="topic">Тема обращения</label>
+                <select class="form__select" id="topic" name="topic">
+                    <option value="Я тоже в цикле перерождений">Я тоже в цикле перерождений</option>
+                    <option value="Знаю больше о Кенни">Знаю больше о Кенни</option>
+                    <option value="Другое">Другое</option>
+                </select>
+            </div>
+
+            <div class="form__field">
+                <label class="form__label" for="message">Сообщение</label>
+                <textarea class="form__textarea" id="message" name="message" rows="4" placeholder="Ваше сообщение..."></textarea>
+            </div>
+
+            <div class="form__checkbox-row">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">Согласен на обработку персональных данных</label>
+            </div>
+
+            <button class="form__button" type="submit">Отправить данные на сервер</button>
+        </form>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>Секретные материалы. Лабораторная работа №4. Багрова В.А., группа 6405.</p>
+</footer>
+
+<div class="matrix-modal" id="matrixModal">
+    <div class="matrix-modal__content">
+        <span class="matrix-modal__close" id="matrixClose">&times;</span>
+        <canvas class="matrix-modal__canvas" id="matrixCanvas"></canvas>
+        <div class="matrix-modal__info" id="matrixInfo">
+        </div>
+    </div>
+</div>
+
+<script src="js/form.js"></script>
+</body>
+</html>
