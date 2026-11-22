@@ -57,8 +57,8 @@
 - `truth.html` — вёрстка через **CSS Grid** 
 - Цвета вынесены в **CSS-переменные** 
 - Реализована **CSS-анимация**: пульсация заголовка, бегущая строка
-- `contacts.html` — форма с 5 типами полей (text, email, select, textarea, checkbox) и кнопкой отправки.
-- `js/form.js` — класс `ContactFormData` с конструктором и методом `print()` для вывода в консоль.
+- `contacts.html` — форма с 5 типами полей и кнопкой отправки
+- `js/form.js` — класс `ContactFormData` с конструктором и методом для вывода в консоль
 - Использована методология **БЭМ** 
 
-[Открыть сайт](https://nikiii357549.github.io/web6405-bagrova_va/lab2/index.html)
+[Открыть сайт](https://nikiii357549.github.io/web6405-bagrova_va/lab4/index.html)
